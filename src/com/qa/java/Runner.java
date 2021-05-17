@@ -13,7 +13,7 @@ public class Runner {
 		
 		int var = 5;
 		
-		var += 5;
+		var += 3;
 		
 		System.out.println(var);
 		
@@ -31,8 +31,8 @@ public class Runner {
 		
 	}
 	
-		//public static int add(int num1, int num2) {
-			//return num1 + num2;
+		public static int add(int num1, int num2) {
+			return num1 + num2;
 		}
 
-//}
+}
