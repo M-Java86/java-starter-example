@@ -1,5 +1,5 @@
 package com.qa.java;
-//Follow-along
+//Follow-along added variable Strings and booleans 
 
 public class Runner {
 	
