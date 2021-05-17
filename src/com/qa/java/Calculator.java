@@ -2,21 +2,21 @@ package com.qa.java;
 
 public class Calculator { 
 	
-	public static int add(int num1, int num2) {
+	public static double add(double num1, double num2) {
 		return num1 + num2;
 	}
-	public static int sub(int num1, int num2) {
+	public static double sub(double num1, double num2) {
 		return num1 - num2;
 	}
-	public static int mult(int num1 , int num2) {
+	public static double mult(double num1 , double num2) {
 		return num1 * num2;
 	}
 	// no floating point value!!!
-	public static int div(int num1, int num2) {
+	public static double div(double num1, double num2) {
 		return num1 / num2;
 	}
 	// should be okay 
-	public static int mod(int num1 , int num2) {
+	public static double mod(double num1 , double num2) {
 	return num1 % num2;
 	
 	}
