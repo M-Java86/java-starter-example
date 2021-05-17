@@ -13,7 +13,7 @@ public class Runner {
 		
 		int var = 5;
 		
-		var -= 5;
+		var += 5;
 		
 		System.out.println(var);
 		
