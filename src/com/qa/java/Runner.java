@@ -10,12 +10,16 @@ public class Runner {
 	
 	// Member - Method has a Scope
 	public static void main(String[] args) {
+		System.out.print(Calculator.add(1, 3));
+	}
+	
+}
 		
-		int var = 5;
+		//int var = 5;
 		
-		var += 3;
+		//var += 3;
 		
-		System.out.println(var);
+		//System.out.println(var);
 		
 		//int result = 2;
 		
@@ -29,10 +33,12 @@ public class Runner {
 		//..this is going imply the opposite of the statement here. So if it's true, then it will be false and vice versa.
 		//This is only used in conjunction with a boolean. 
 		
-	}
+	//}
 	
-		public static int add(int num1, int num2) {
-			return num1 + num2;
-		}
+		//public static int add(int num1, int num2) {
+			//return num1 + num2;
+		//}
 
-}
+//} 
+
+
