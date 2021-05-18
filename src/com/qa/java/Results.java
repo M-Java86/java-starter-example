@@ -11,15 +11,18 @@ package com.qa.java;
 	public static double percentage;
 	
 		public static void displayResults() {
-		System.out.print("Physics Marks: + Physics");
-		System.out.print("Chemistry Mark: + Chemistry");
-		System.out.print("Biology Mark: + Biology");
-		
-		System.out.print("Overall Mark: " + total);
+		System.out.println("Physics Marks: " + Physics);
+		System.out.println("Chemistry Mark: " + "Chemistry");
+		System.out.println("Biology Mark: " + Biology);
+		System.out.println("\nOverall Mark : " +  total);
 	}
-	
-	public static void displayExamOverall() {}
-
+	     public static double ExamOverall() {
+	    	 
+	  
+		//overall percentage that the person has got by multiplying
+		//their score by 100 and then dividing by 450
+	     return percentage = total * 100 / 450; 
+	}
 	}
 
 

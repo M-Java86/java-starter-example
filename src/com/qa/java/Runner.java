@@ -10,11 +10,13 @@ public class Runner {
 	
 	// Member - Method has a Scope
 	public static void main(String[] args) {
-		//System.out.print(Calculator.div(5, 2));
-		Results.displayResults();
+		//Results.Chemistry +20;
+		//Results.displayResults();
+		System.out.println("Overall Results:" + Results.ExamOverall());
 	}
 	
-}
+}     
+//System.out.print(Calculator.div(5, 2));
 		
 		//int var = 5;
 		
