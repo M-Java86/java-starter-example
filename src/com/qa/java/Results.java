@@ -4,11 +4,16 @@ package com.qa.java;
 
 	public class Results {
 	
+		
+		public static void main(String[] args) {
+		}
 	public static double Physics = 130;
 	public static double Chemsitry = 100;
 	public static double Biology = 112;
 	public static double total = Physics + Chemsitry + Biology;
 	public static double percentage;
+	
+		
 	
 		public static void displayResults() {
 		System.out.println("Physics Marks: " + Physics);
@@ -23,7 +28,11 @@ package com.qa.java;
 		//their score by 100 and then dividing by 450
 	     return percentage = total * 100 / 450; 
 	}
-	}
+	
+		}
+		
+		
+	
 
 
 //1) //Create a method that accepts two integers as input, then returns an integer that is the sum of these two parameters. (Addition) 
