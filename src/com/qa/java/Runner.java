@@ -10,6 +10,19 @@ public class Runner {
 	
 	// Member - Method has a Scope
 	public static void main(String[] args) {
+		//Results.Chemistry +20;
+		//Results.displayResults();
+		System.out.println("Overall Results:" + Results.ExamOverall());
+	}
+	
+}     
+//System.out.print(Calculator.div(5, 2));
+		
+		//int var = 5;
+		
+		//var += 3;
+		
+		//System.out.println(var);
 		
 		//int result = 2;
 		
@@ -17,12 +30,18 @@ public class Runner {
 		
 		
 		//int result = Calculator.add(5, 5);
-			boolean flag = true;
+		//	boolean flag = true;
 		
-		System.out.println(!flag);//-we can change the logic of this statement by add !, which is called logical not argument...
+		//System.out.println(!flag);//-we can change the logic of this statement by add !, which is called logical not argument...
 		//..this is going imply the opposite of the statement here. So if it's true, then it will be false and vice versa.
 		//This is only used in conjunction with a boolean. 
 		
-	}
+	//}
+	
+		//public static int add(int num1, int num2) {
+			//return num1 + num2;
+		//}
 
-}
+//} 
+
+
