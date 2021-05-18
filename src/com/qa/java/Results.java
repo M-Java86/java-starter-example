@@ -11,11 +11,11 @@ package com.qa.java;
 	public static double percentage;
 	
 		public static void displayResults() {
-		System.out.println("Physics Marks: + Physics");
-		System.out.println("Chemistry Mark: + Chemistry");
-		System.out.println("Biology Mark: + Biology");
+		System.out.print("Physics Marks: + Physics");
+		System.out.print("Chemistry Mark: + Chemistry");
+		System.out.print("Biology Mark: + Biology");
 		
-		System.out.println("\nOverall Mark: " + total);
+		System.out.print("Overall Mark: " + total);
 	}
 	
 	public static void displayExamOverall() {}

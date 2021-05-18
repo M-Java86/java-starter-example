@@ -10,7 +10,8 @@ public class Runner {
 	
 	// Member - Method has a Scope
 	public static void main(String[] args) {
-		System.out.print(Calculator.div(5, 2));
+		//System.out.print(Calculator.div(5, 2));
+		Results.displayResults();
 	}
 	
 }
